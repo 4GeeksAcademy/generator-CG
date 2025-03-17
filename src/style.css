@@ -1,5 +1,36 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    background-color: darkgreen;
+}
+
+.drop-zone {
+    height: 150px;
+    border: 2px dashed white;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: grab;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
 }

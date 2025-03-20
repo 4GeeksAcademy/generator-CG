@@ -23,7 +23,7 @@ function generateCards() {
     const cardContainer = document.getElementById("card-container");
     cardContainer.innerHTML = "";
 
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 22; i++) {
         let figure = getRandomFromArray(figures);
         let value = getRandomFromArray(values);
         
